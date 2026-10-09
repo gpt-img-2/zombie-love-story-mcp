@@ -14,7 +14,7 @@ const annotations = {
   idempotentHint: true,
   openWorldHint: false,
 };
-const instructions = "Zombie Love Story MCP is a deterministic, read-only text planner. It does not inspect or upload photos, connect accounts or billing, access media history, call providers, or generate or submit video. The matching local project is a visual prototype; treat its displayed product details as reference UI, not an active offer. Require photo permission and consent, keep stories original, gentle, and non-graphic, and do not imply affiliation with aizombie.net.";
+const instructions = "Zombie Love Story MCP is a deterministic, read-only text planner. It does not inspect or upload photos, connect accounts or billing, access media history, call providers, or generate or submit video. The matching local source tree is a visual prototype; consult the live public site for current published product information. This MCP does not verify upload, generation, payment, or output quality. Require photo permission and consent, keep stories original, gentle, and non-graphic, and do not imply affiliation with aizombie.net.";
 const text = (value: unknown) => ({
   content: [{ type: "text" as const, text: JSON.stringify(value, null, 2) }],
 });
@@ -101,7 +101,7 @@ export function createServer() {
         rawSkillUrl: `${config.appBaseUrl}/skills/zombie-love-story-planner/SKILL.md`,
         mcpSource: "https://github.com/gpt-img-2/zombie-love-story-mcp",
         productCapabilityNote:
-          "The corresponding local project is a visual prototype; this tool does not claim live generation, account, upload, billing, or history functionality.",
+          "The public pages provide published product information. This MCP does not test whether upload, generation, payment, or media-history operations work.",
       }),
   );
 

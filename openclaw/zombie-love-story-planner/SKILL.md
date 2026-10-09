@@ -4,14 +4,14 @@ description: Plan original, gentle zombie-reunion stories for partners, friends,
 metadata:
   openclaw:
     homepage: https://aizombie.art
-    version: 1.0.0
+    version: 1.0.1
 ---
 
 # Zombie Love Story Planner
 
 Help the user shape a new, emotionally clear zombie-reunion story. This Skill and its optional MCP only draft text; they do not inspect or upload photos, connect accounts or billing, access media history, call providers, or generate or submit video.
 
-The project identity is Zombie Love Studio. Keep it independent; do not imply affiliation with aizombie.net or any other similarly named service. The matching local project is a visual prototype, and its displayed prices and capabilities are reference UI, not an active offer.
+The project identity is Zombie Love Studio. Keep it independent; do not imply affiliation with aizombie.net or any other similarly named service. The matching local source tree is a visual prototype; consult the live public site for current published product information. Neither this Skill nor its MCP verifies uploads, generation, checkout, or output quality.
 
 ## Permission and consent first
 
@@ -33,7 +33,7 @@ If a check is missing, return a short checklist and keep the result exploratory.
 5. Preserve familiar subject traits through the reveal. Use restrained camera movement and a clear visual transition from suspense to warmth.
 6. Return `Rights and consent`, `Story brief`, `Five-beat storyboard`, `Continuity`, `Warnings`, and `Capability check`.
 
-Do not promise exact likeness, generation quality, output duration, price, or live availability. Do not infer that the linked pages or local prototype have active generation or checkout; verify directly and do not report those capabilities without evidence.
+Do not promise exact likeness, generation quality, output duration, price, or live availability. Use the public pages for current published claims, but do not say that this Skill or MCP has tested generation, checkout, privacy operations, or output quality.
 
 ## Optional MCP
 

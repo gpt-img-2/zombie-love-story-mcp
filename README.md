@@ -2,7 +2,7 @@
 
 Deterministic, read-only MCP tools and an OpenClaw Skill for planning original, gentle zombie-reunion story concepts. Draft a visual brief, structure a five-beat storyboard, review consent and prompt risks, and find public Zombie Love resources.
 
-This is a text-only planner. It does not inspect or upload photos, generate or submit video, call an AI provider, connect accounts or billing, or access media history. The matching local project is a visual prototype; its displayed prices and capabilities are reference UI, not an active offer. The tool does not claim any live product capability.
+This is a text-only planner. It does not inspect or upload photos, generate or submit video, call an AI provider, connect accounts or billing, or access media history. The matching local source tree is a visual prototype; consult the live public site for its current published product information. This repository does not verify upload, generation, payment, or output quality.
 
 The project identity is Zombie Love Studio. Keep it independent from similarly named services; do not imply affiliation with aizombie.net.
 
