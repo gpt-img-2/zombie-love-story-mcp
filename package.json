@@ -1,0 +1,62 @@
+{
+  "name": "zombie-love-story-mcp",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.11.1",
+  "description": "Deterministic, read-only MCP tools and an OpenClaw Skill for original zombie-reunion story briefs, storyboards, prompt checks, and Zombie Love resources.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "zombie-love-story-mcp": "bin/zombie-love-story-mcp.js"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "openclaw/",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "smoke": "node scripts/smoke-mcp-client.mjs",
+    "validate": "pnpm typecheck && pnpm test && pnpm build && pnpm smoke"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "zombie-love",
+    "storyboard",
+    "video-prompt",
+    "openclaw"
+  ],
+  "author": {
+    "name": "Zombie Love Studio",
+    "url": "https://aizombie.art"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpt-img-2/zombie-love-story-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gpt-img-2/zombie-love-story-mcp/issues"
+  },
+  "homepage": "https://aizombie.art",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.3.1",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.3.1",
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.tgz
+.DS_Store
+.env
+.env.*
+!.env.example
+.output/
+.nitro/
+data/
+src/paraglide/
+src/routeTree.gen.ts
+npm-debug.log*
